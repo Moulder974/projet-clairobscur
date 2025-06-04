@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .hero {
   height: 100vh;
   background-image: url("img/hero.png");
@@ -5,15 +11,22 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.container-perso {
+  height: 100vh;
+  background-image: url("img/background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .swiper {
   width: 600px;
-  height: 1000px;
+  height: 800px;
   border-radius: 20px;
+  scale: 80%;
 }
 
-/* From Uiverse.io by cssbuttons-io */ 
-.btn {
+nav a {
   margin: 10px;
   position: relative;
   font-size: 17px;
@@ -61,4 +74,27 @@
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+}
+
+.container-main {
+  display: flex;
+}
+
+.text-perso {
+  margin: auto;
+}
+
+.img-perso {
+}
+
+.text-img-perso {
+  color: blueviolet;
+  background-color: black;
 }

@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
-  <body>
+  <body class="container-perso">
     <header>
       <h1>Clair Obscur</h1>
       <nav>
@@ -20,13 +20,21 @@
         <a href="contact.html">Contact</a>
       </nav>
     </header>
-    <main>
-      <h2>Les personnages principaux</h2>
-      <div class="swiper">
+    <main class="container-main">
+      <div class="text-perso">
+        <h2>Les personnages principaux</h2>
+        <p>test</p>
+      </div>
+
+      <div class="swiper img-perso">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="img/perso1.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/perso2.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/perso3.png" alt=""></div>
+          <div class="swiper-slide">
+            <h2 class="text-img-perso">Verso</h2>
+            <img src="img/perso1.png" alt="Verso" />
+            
+          </div>
+          <div class="swiper-slide"><img src="img/perso2.png" /></div>
+          <div class="swiper-slide"><img src="img/perso3.png" /></div>
         </div>
 
         <div class="swiper-pagination"></div>
