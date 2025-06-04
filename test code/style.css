@@ -13,7 +13,7 @@
 }
 .container-perso {
   height: 100vh;
-  background-image: url("img/background2.png");
+  background-image: url("img/background3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +21,7 @@
 
 .swiper {
   width: 600px;
-  height: 800px;
+  height: 900px;
   border-radius: 20px;
   scale: 80%;
 }
@@ -91,10 +91,10 @@ nav a {
   margin: auto;
 }
 
-.img-perso {
-}
 
 .text-img-perso {
-  color: blueviolet;
+  color: whitesmoke;
   background-color: black;
+  text-align: center;
 }
+
