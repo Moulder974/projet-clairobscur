@@ -118,6 +118,7 @@ nav a {
   margin: 100px;
   font-size: 50px;
   color: bisque;
+  backdrop-filter: blur(2px);
 }
 
 .text-perso {
@@ -154,9 +155,10 @@ font-size: 70px;
   margin: auto;
   font-size: 25px;
   font-weight: 500;
-  color: rgb(0, 0, 0);
+  color: rgb(1, 0, 2);
   text-align: center;
+  backdrop-filter: blur(2px)
 }
 .background-grey{
-  background-color: rgb(165, 159, 159);
+  background-color: rgb(141, 139, 153);
 }
