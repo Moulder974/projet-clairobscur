@@ -157,3 +157,6 @@ font-size: 70px;
   color: rgb(0, 0, 0);
   text-align: center;
 }
+.background-grey{
+  background-color: rgb(165, 159, 159);
+}
