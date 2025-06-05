@@ -17,7 +17,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
+}
+
+.container-univers {
+  height: 100vh;
+  background-image: url("img/background1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .desc-perso {
@@ -58,7 +65,7 @@ nav a {
   border: none;
   font-family: inherit;
   font-weight: 500;
-  color: white;
+  color: bisque;
   background-color: black;
 }
 
@@ -86,7 +93,7 @@ nav a {
 }
 
 .btn::after {
-  background-color: #fff;
+  background-color: bisque;
 }
 
 .btn:hover::after {
@@ -106,15 +113,27 @@ nav a {
   margin: 20px;
 }
 
+.main-index  {
+  text-align: center;
+  margin: 100px;
+  font-size: 50px;
+  color: bisque;
+}
+
 .text-perso {
   margin: auto;
-  width: 500px;
-  color: white;
+  width: 600px;
+  color: bisque;
+}
+
+.text-perso h2 {
+  font-size: 40px;
+  margin: 20px;
 }
 
 
 .text-img-perso {
-  color: whitesmoke;
+  color: bisque;
   background-color: black;
   text-align: center;
 }
@@ -122,6 +141,19 @@ nav a {
 .title{
 text-align: center;
 color: bisque;
-font-size: 60px;
+font-size: 70px;
 
+}
+
+.main-univers {
+  margin: 50px;
+}
+
+.text-univers {
+  width: 700px;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
