@@ -17,13 +17,31 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
+}
+
+.desc-perso {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  
+  margin: 0 auto;
+  background-color: black;
 }
 
 .swiper {
-  width: 600px;
-  height: 900px;
+  width: 500px;
+  height: 750px;
   border-radius: 20px;
-  scale: 80%;
+  /* scale: 80%; */
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
@@ -40,8 +58,8 @@ nav a {
   border: none;
   font-family: inherit;
   font-weight: 500;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 .btn:hover {
@@ -85,10 +103,13 @@ nav a {
 
 .container-main {
   display: flex;
+  margin: 20px;
 }
 
 .text-perso {
   margin: auto;
+  width: 500px;
+  color: white;
 }
 
 
@@ -98,3 +119,9 @@ nav a {
   text-align: center;
 }
 
+.title{
+text-align: center;
+color: bisque;
+font-size: 60px;
+
+}

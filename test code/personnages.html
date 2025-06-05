@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Clair Obscur - Personnages</title>
+    <title class="title">Clair Obscur - Personnages</title>
     <link rel="stylesheet" href="style.css" />
 
     <link
@@ -12,8 +12,8 @@
   </head>
   <body class="container-perso">
     <header>
-      <h1>Clair Obscur</h1>
-      <nav>
+      <h1 class="title">Clair Obscur</h1>
+      <nav class="navigation">
         <a href="index.html">Accueil</a>
         <a href="univers.html">Univers</a>
         <a href="personnages.html">Personnages</a>
@@ -23,35 +23,56 @@
     <main class="container-main">
       <div class="text-perso">
         <h2>Les personnages principaux</h2>
-        <p>test</p>
+        <p>
+          Dans <strong>Clair Obscur</strong>, chaque personnage incarne une
+          facette de la lutte entre lumière et ténèbres. Leurs histoires
+          s'entrelacent, portées par des choix difficiles et un passé complexe.
+          Découvrez Verso, Maelle et Scyel, trois âmes aux destins liés, unies
+          dans une quête où la frontière entre bien et mal se brouille.
+        </p>
       </div>
 
       <div class="swiper img-perso">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <h1 class="text-img-perso">Verso</h1>
-      <img src="img/perso1.png" alt="Verso" />
-    </div>
-    <div class="swiper-slide">
-      <h1 class="text-img-perso">Maelle</h1>
-      <img src="img/perso2.png" alt="Maelle" />
-    </div>
-    <div class="swiper-slide">
-      <h1 class="text-img-perso">Scyel</h1>
-      <img src="img/perso3.png" alt="Scyel" />
-    </div>
-  </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1 class="text-img-perso">Verso</h1>
+            <p class="desc-perso">
+              Verso est un ancien soldat, rongé par un passé mystérieux. Calme
+              et taciturne, il agit toujours dans l’ombre pour protéger ses
+              alliés.
+            </p>
+            <img src="img/perso1.png" alt="Verso" />
+            
+          </div>
+          <div class="swiper-slide">
+            <h1 class="text-img-perso">Maelle</h1>
+            <p class="desc-perso">
+              Maelle est une mage rebelle, douée pour manipuler la lumière. Elle
+              cherche à percer les secrets du monde caché derrière les
+              apparences.
+            </p>
+            <img src="img/perso2.png" alt="Maelle" />
+            
+          </div>
+          <div class="swiper-slide">
+            <h1 class="text-img-perso">Scyel</h1>
+            <p class="desc-perso">
+              Scyel est un jeune voleur intrépide, au cœur pur. Il utilise son
+              agilité pour se faufiler là où personne ne peut aller.
+            </p>
+            <img src="img/perso3.png" alt="Scyel" />
+            
+          </div>
+        </div>
 
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-scrollbar"></div>
-</div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
-
-
